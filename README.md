@@ -24,3 +24,4 @@ Python 3.11.x 64-bit
 
 PyCaret 3.3.2
 
+# Repositório criado por [Gabriel Castagna](www.github.com/castagnagh)
