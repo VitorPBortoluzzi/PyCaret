@@ -2729,3 +2729,1843 @@ Returning the number of logical cores instead. You can silence this warning by s
 2026-09-16 21:24:04,653:INFO:Plot type: pipeline
 2026-09-16 21:24:04,720:INFO:Visual Rendered Successfully
 2026-09-16 21:24:04,795:INFO:plot_model() successfully completed......................................
+2026-09-16 21:27:57,725:INFO:Initializing plot_model()
+2026-09-16 21:27:57,725:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000287133624D0>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform'), plot=confusion_matrix, scale=1, save=False, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), fit_kwargs={}, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=False, system=True, display=None, display_format=None)
+2026-09-16 21:27:57,725:INFO:Checking exceptions
+2026-09-16 21:27:57,727:INFO:Preloading libraries
+2026-09-16 21:27:57,727:INFO:Copying training dataset
+2026-09-16 21:27:57,727:INFO:Plot type: confusion_matrix
+2026-09-16 21:27:57,971:INFO:Fitting Model
+2026-09-16 21:27:57,971:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\base.py:493: UserWarning: X does not have valid feature names, but KNeighborsClassifier was fitted with feature names
+  warnings.warn(
+
+2026-09-16 21:27:57,971:INFO:Scoring test/hold-out set
+2026-09-16 21:27:58,149:INFO:Visual Rendered Successfully
+2026-09-16 21:27:58,212:INFO:plot_model() successfully completed......................................
+2026-09-16 21:29:46,404:INFO:Initializing plot_model()
+2026-09-16 21:29:46,404:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000287133624D0>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform'), plot=dimension, scale=1, save=False, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), fit_kwargs={}, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=False, system=True, display=None, display_format=None)
+2026-09-16 21:29:46,404:INFO:Checking exceptions
+2026-09-16 21:29:46,404:INFO:Preloading libraries
+2026-09-16 21:29:46,407:INFO:Copying training dataset
+2026-09-16 21:29:46,407:INFO:Plot type: dimension
+2026-09-16 21:29:46,435:INFO:Fitting StandardScaler()
+2026-09-16 21:29:46,459:INFO:Fitting PCA()
+2026-09-16 21:29:46,700:INFO:Fitting & Transforming Model
+2026-09-16 21:29:46,811:INFO:Visual Rendered Successfully
+2026-09-16 21:29:46,890:INFO:plot_model() successfully completed......................................
+2026-09-16 21:29:49,699:INFO:Initializing plot_model()
+2026-09-16 21:29:49,699:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000287133624D0>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform'), plot=ks, scale=1, save=False, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), fit_kwargs={}, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=False, system=True, display=None, display_format=None)
+2026-09-16 21:29:49,699:INFO:Checking exceptions
+2026-09-16 21:29:49,699:INFO:Preloading libraries
+2026-09-16 21:29:49,699:INFO:Copying training dataset
+2026-09-16 21:29:49,699:INFO:Plot type: ks
+2026-09-16 21:29:49,699:INFO:Generating predictions / predict_proba on X_test
+2026-09-16 21:29:49,881:INFO:Visual Rendered Successfully
+2026-09-16 21:29:49,946:INFO:plot_model() successfully completed......................................
+2026-09-16 21:29:51,291:INFO:Initializing plot_model()
+2026-09-16 21:29:51,292:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000287133624D0>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform'), plot=tree, scale=1, save=False, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), fit_kwargs={}, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=False, system=True, display=None, display_format=None)
+2026-09-16 21:29:51,292:INFO:Checking exceptions
+2026-09-16 21:30:02,276:INFO:Initializing plot_model()
+2026-09-16 21:30:02,276:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000287133624D0>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform'), plot=gain, scale=1, save=False, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), fit_kwargs={}, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=False, system=True, display=None, display_format=None)
+2026-09-16 21:30:02,276:INFO:Checking exceptions
+2026-09-16 21:30:02,279:INFO:Preloading libraries
+2026-09-16 21:30:02,279:INFO:Copying training dataset
+2026-09-16 21:30:02,279:INFO:Plot type: gain
+2026-09-16 21:30:02,280:INFO:Generating predictions / predict_proba on X_test
+2026-09-16 21:30:02,572:INFO:Visual Rendered Successfully
+2026-09-16 21:30:02,624:INFO:plot_model() successfully completed......................................
+2026-09-16 21:30:03,828:INFO:Initializing plot_model()
+2026-09-16 21:30:03,828:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000287133624D0>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform'), plot=pipeline, scale=1, save=False, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), fit_kwargs={}, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=False, system=True, display=None, display_format=None)
+2026-09-16 21:30:03,828:INFO:Checking exceptions
+2026-09-16 21:30:03,830:INFO:Preloading libraries
+2026-09-16 21:30:03,831:INFO:Copying training dataset
+2026-09-16 21:30:03,831:INFO:Plot type: pipeline
+2026-09-16 21:30:03,890:INFO:Visual Rendered Successfully
+2026-09-16 21:30:03,973:INFO:plot_model() successfully completed......................................
+2026-09-16 21:33:55,810:INFO:Initializing tune_model()
+2026-09-16 21:33:55,810:INFO:tune_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000287133624D0>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform'), fold=None, round=4, n_iter=10, custom_grid=None, optimize=Accuracy, custom_scorer=None, search_library=scikit-learn, search_algorithm=None, early_stopping=False, early_stopping_max_iters=10, choose_better=True, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, return_train_score=False, kwargs={})
+2026-09-16 21:33:55,810:INFO:Checking exceptions
+2026-09-16 21:33:55,820:INFO:Copying training dataset
+2026-09-16 21:33:55,823:INFO:Checking base model
+2026-09-16 21:33:55,823:INFO:Base model : K Neighbors Classifier
+2026-09-16 21:33:55,825:INFO:Declaring metric variables
+2026-09-16 21:33:55,827:INFO:Defining Hyperparameters
+2026-09-16 21:33:55,923:INFO:Tuning with n_jobs=-1
+2026-09-16 21:33:55,923:INFO:Initializing RandomizedSearchCV
+2026-09-16 21:34:02,034:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:34:02,036:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:34:02,080:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:34:02,130:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:34:02,159:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:34:02,185:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:34:02,190:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:34:02,214:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:34:02,238:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:34:02,250:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:34:02,264:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:34:02,272:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:34:02,278:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:34:02,284:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:34:02,288:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:34:02,293:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:34:02,293:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:34:02,299:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:34:02,307:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:34:02,309:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:34:07,731:INFO:best_params: {'actual_estimator__weights': 'uniform', 'actual_estimator__n_neighbors': 16, 'actual_estimator__metric': 'manhattan'}
+2026-09-16 21:34:07,732:INFO:Hyperparameter search completed
+2026-09-16 21:34:07,732:INFO:SubProcess create_model() called ==================================
+2026-09-16 21:34:07,732:INFO:Initializing create_model()
+2026-09-16 21:34:07,732:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000287133624D0>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform'), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000002871725F910>, model_only=True, return_train_score=False, error_score=0.0, kwargs={'weights': 'uniform', 'n_neighbors': 16, 'metric': 'manhattan'})
+2026-09-16 21:34:07,732:INFO:Checking exceptions
+2026-09-16 21:34:07,733:INFO:Importing libraries
+2026-09-16 21:34:07,733:INFO:Copying training dataset
+2026-09-16 21:34:07,736:INFO:Defining folds
+2026-09-16 21:34:07,736:INFO:Declaring metric variables
+2026-09-16 21:34:07,738:INFO:Importing untrained model
+2026-09-16 21:34:07,738:INFO:Declaring custom model
+2026-09-16 21:34:07,739:INFO:K Neighbors Classifier Imported successfully
+2026-09-16 21:34:07,743:INFO:Starting cross validation
+2026-09-16 21:34:07,743:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-09-16 21:34:08,342:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:08,352:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:08,359:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:08,362:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:08,362:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:08,373:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:08,383:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:08,383:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:08,383:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:08,383:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:08,391:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:08,392:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:08,393:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:08,393:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:08,393:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:08,403:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:08,409:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:08,414:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:08,414:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:08,424:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:08,428:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:08,434:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:08,442:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:08,445:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:08,445:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:08,445:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:08,445:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:08,445:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:08,445:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:08,445:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:08,465:INFO:Calculating mean and std
+2026-09-16 21:34:08,465:INFO:Creating metrics dataframe
+2026-09-16 21:34:08,465:INFO:Finalizing model
+2026-09-16 21:34:08,593:INFO:Uploading results into container
+2026-09-16 21:34:08,604:INFO:Uploading model into container now
+2026-09-16 21:34:08,605:INFO:_master_model_container: 16
+2026-09-16 21:34:08,605:INFO:_display_container: 4
+2026-09-16 21:34:08,605:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='manhattan',
+                     metric_params=None, n_jobs=-1, n_neighbors=16, p=2,
+                     weights='uniform')
+2026-09-16 21:34:08,605:INFO:create_model() successfully completed......................................
+2026-09-16 21:34:08,680:INFO:SubProcess create_model() end ==================================
+2026-09-16 21:34:08,680:INFO:choose_better activated
+2026-09-16 21:34:08,683:INFO:SubProcess create_model() called ==================================
+2026-09-16 21:34:08,683:INFO:Initializing create_model()
+2026-09-16 21:34:08,683:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000287133624D0>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform'), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-09-16 21:34:08,683:INFO:Checking exceptions
+2026-09-16 21:34:08,684:INFO:Importing libraries
+2026-09-16 21:34:08,684:INFO:Copying training dataset
+2026-09-16 21:34:08,687:INFO:Defining folds
+2026-09-16 21:34:08,687:INFO:Declaring metric variables
+2026-09-16 21:34:08,687:INFO:Importing untrained model
+2026-09-16 21:34:08,687:INFO:Declaring custom model
+2026-09-16 21:34:08,687:INFO:K Neighbors Classifier Imported successfully
+2026-09-16 21:34:08,688:INFO:Starting cross validation
+2026-09-16 21:34:08,689:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-09-16 21:34:09,272:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:09,273:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:09,278:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:09,281:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:09,283:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:09,288:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:09,289:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:09,289:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:09,292:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:09,296:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:09,297:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:09,297:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:09,301:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:09,305:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:09,306:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:09,325:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:09,330:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:09,330:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:09,330:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:09,330:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:09,330:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:09,334:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:09,334:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:09,334:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:09,334:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:09,335:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:09,338:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:09,338:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:09,338:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:09,339:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:34:09,351:INFO:Calculating mean and std
+2026-09-16 21:34:09,351:INFO:Creating metrics dataframe
+2026-09-16 21:34:09,352:INFO:Finalizing model
+2026-09-16 21:34:09,475:INFO:Uploading results into container
+2026-09-16 21:34:09,475:INFO:Uploading model into container now
+2026-09-16 21:34:09,475:INFO:_master_model_container: 17
+2026-09-16 21:34:09,475:INFO:_display_container: 5
+2026-09-16 21:34:09,475:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform')
+2026-09-16 21:34:09,475:INFO:create_model() successfully completed......................................
+2026-09-16 21:34:09,548:INFO:SubProcess create_model() end ==================================
+2026-09-16 21:34:09,549:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform') result for Accuracy is 0.772
+2026-09-16 21:34:09,549:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='manhattan',
+                     metric_params=None, n_jobs=-1, n_neighbors=16, p=2,
+                     weights='uniform') result for Accuracy is 0.7929
+2026-09-16 21:34:09,549:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='manhattan',
+                     metric_params=None, n_jobs=-1, n_neighbors=16, p=2,
+                     weights='uniform') is best model
+2026-09-16 21:34:09,549:INFO:choose_better completed
+2026-09-16 21:34:09,554:INFO:_master_model_container: 17
+2026-09-16 21:34:09,554:INFO:_display_container: 4
+2026-09-16 21:34:09,554:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='manhattan',
+                     metric_params=None, n_jobs=-1, n_neighbors=16, p=2,
+                     weights='uniform')
+2026-09-16 21:34:09,554:INFO:tune_model() successfully completed......................................
+2026-09-16 21:36:55,159:INFO:Initializing predict_model()
+2026-09-16 21:36:55,159:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000287133624D0>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='manhattan',
+                     metric_params=None, n_jobs=-1, n_neighbors=16, p=2,
+                     weights='uniform'), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002871733CAE0>)
+2026-09-16 21:36:55,159:INFO:Checking exceptions
+2026-09-16 21:36:55,159:INFO:Preloading libraries
+2026-09-16 21:36:55,532:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:36:55,545:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:36:55,559:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-16 21:41:25,396:INFO:Initializing predict_model()
+2026-09-16 21:41:25,396:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000287133624D0>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='manhattan',
+                     metric_params=None, n_jobs=-1, n_neighbors=16, p=2,
+                     weights='uniform'), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002878CEECFE0>)
+2026-09-16 21:41:25,396:INFO:Checking exceptions
+2026-09-16 21:41:25,396:INFO:Preloading libraries
+2026-09-16 21:41:25,401:INFO:Set up data.
+2026-09-16 21:41:25,402:INFO:Set up index.
+2026-09-16 21:42:24,880:INFO:Initializing predict_model()
+2026-09-16 21:42:24,880:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000287133624D0>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='manhattan',
+                     metric_params=None, n_jobs=-1, n_neighbors=16, p=2,
+                     weights='uniform'), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000287173B8E00>)
+2026-09-16 21:42:24,880:INFO:Checking exceptions
+2026-09-16 21:42:24,880:INFO:Preloading libraries
+2026-09-16 21:42:24,887:INFO:Set up data.
+2026-09-16 21:42:24,888:INFO:Set up index.
+2026-09-16 21:43:05,437:INFO:Initializing predict_model()
+2026-09-16 21:43:05,437:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000287133624D0>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='manhattan',
+                     metric_params=None, n_jobs=-1, n_neighbors=16, p=2,
+                     weights='uniform'), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002871739A5C0>)
+2026-09-16 21:43:05,437:INFO:Checking exceptions
+2026-09-16 21:43:05,437:INFO:Preloading libraries
+2026-09-16 21:43:05,443:INFO:Set up data.
+2026-09-16 21:43:05,448:INFO:Set up index.
+2026-09-16 21:46:04,096:INFO:Initializing save_model()
+2026-09-16 21:46:04,096:INFO:save_model(model=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='manhattan',
+                     metric_params=None, n_jobs=-1, n_neighbors=16, p=2,
+                     weights='uniform'), model_name=models/churn_model_v1, prep_pipe_=Pipeline(memory=FastMemory(location=C:\Users\LABORA~1\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=Tru...
+                                                              return_df=True,
+                                                              use_cat_names=True,
+                                                              verbose=0))),
+                ('rest_encoding',
+                 TransformerWrapper(exclude=None,
+                                    include=['customerID', 'TotalCharges'],
+                                    transformer=TargetEncoder(cols=['customerID',
+                                                                    'TotalCharges'],
+                                                              drop_invariant=False,
+                                                              handle_missing='return_nan',
+                                                              handle_unknown='value',
+                                                              hierarchy=None,
+                                                              min_samples_leaf=20,
+                                                              return_df=True,
+                                                              smoothing=10,
+                                                              verbose=0)))],
+         verbose=False), verbose=True, use_case=MLUsecase.CLASSIFICATION, kwargs={})
+2026-09-16 21:46:04,096:INFO:Adding model into prep_pipe
+2026-09-16 21:46:04,108:INFO:models/churn_model_v1.pkl saved in current working directory
+2026-09-16 21:46:04,128:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False...
+                                    transformer=TargetEncoder(cols=['customerID',
+                                                                    'TotalCharges'],
+                                                              drop_invariant=False,
+                                                              handle_missing='return_nan',
+                                                              handle_unknown='value',
+                                                              hierarchy=None,
+                                                              min_samples_leaf=20,
+                                                              return_df=True,
+                                                              smoothing=10,
+                                                              verbose=0))),
+                ('trained_model',
+                 KNeighborsClassifier(algorithm='auto', leaf_size=30,
+                                      metric='manhattan', metric_params=None,
+                                      n_jobs=-1, n_neighbors=16, p=2,
+                                      weights='uniform'))],
+         verbose=False)
+2026-09-16 21:46:04,128:INFO:save_model() successfully completed......................................
+2026-09-16 21:48:26,347:INFO:Initializing load_model()
+2026-09-16 21:48:26,347:INFO:load_model(model_name=models/churn_model_v1, platform=None, authentication=None, verbose=True)
+2026-09-16 21:49:30,316:INFO:Initializing predict_model()
+2026-09-16 21:49:30,316:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000287133624D0>, estimator=Pipeline(memory=FastMemory(location=C:\Users\LABORA~1\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=Tru...
+                                    transformer=TargetEncoder(cols=['customerID',
+                                                                    'TotalCharges'],
+                                                              drop_invariant=False,
+                                                              handle_missing='return_nan',
+                                                              handle_unknown='value',
+                                                              hierarchy=None,
+                                                              min_samples_leaf=20,
+                                                              return_df=True,
+                                                              smoothing=10,
+                                                              verbose=0))),
+                ('trained_model',
+                 KNeighborsClassifier(algorithm='auto', leaf_size=30,
+                                      metric='manhattan', metric_params=None,
+                                      n_jobs=-1, n_neighbors=16, p=2,
+                                      weights='uniform'))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000287384E3E20>)
+2026-09-16 21:49:30,316:INFO:Checking exceptions
+2026-09-16 21:49:30,316:INFO:Preloading libraries
+2026-09-16 21:49:30,316:INFO:Set up data.
+2026-09-16 21:49:30,316:INFO:Set up index.
+2026-09-16 21:53:36,865:INFO:PyCaret ClassificationExperiment
+2026-09-16 21:53:36,865:INFO:Logging name: clf-default-name
+2026-09-16 21:53:36,865:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2026-09-16 21:53:36,865:INFO:version 3.3.2
+2026-09-16 21:53:36,865:INFO:Initializing setup()
+2026-09-16 21:53:36,865:INFO:self.USI: c04a
+2026-09-16 21:53:36,865:INFO:self._variable_keys: {'_available_plots', 'X_train', 'target_param', 'exp_name_log', 'seed', 'X_test', 'USI', 'gpu_param', 'y_test', 'pipeline', 'X', 'fold_generator', 'n_jobs_param', 'data', 'gpu_n_jobs_param', '_ml_usecase', 'idx', 'exp_id', 'y', 'log_plots_param', 'memory', 'y_train', 'fold_groups_param', 'fix_imbalance', 'html_param', 'logging_param', 'is_multiclass', 'fold_shuffle_param'}
+2026-09-16 21:53:36,865:INFO:Checking environment
+2026-09-16 21:53:36,865:INFO:python_version: 3.11.9
+2026-09-16 21:53:36,865:INFO:python_build: ('tags/v3.11.9:de54cf5', 'Apr  2 2024 10:12:12')
+2026-09-16 21:53:36,865:INFO:machine: AMD64
+2026-09-16 21:53:36,865:INFO:platform: Windows-10-10.0.26100-SP0
+2026-09-16 21:53:36,867:INFO:Memory: svmem(total=34031316992, available=20843704320, percent=38.8, used=13187612672, free=20843704320)
+2026-09-16 21:53:36,867:INFO:Physical Core: 14
+2026-09-16 21:53:36,867:INFO:Logical Core: 20
+2026-09-16 21:53:36,867:INFO:Checking libraries
+2026-09-16 21:53:36,867:INFO:System:
+2026-09-16 21:53:36,867:INFO:    python: 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]
+2026-09-16 21:53:36,867:INFO:executable: c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Scripts\python.exe
+2026-09-16 21:53:36,867:INFO:   machine: Windows-10-10.0.26100-SP0
+2026-09-16 21:53:36,867:INFO:PyCaret required dependencies:
+2026-09-16 21:53:36,867:INFO:                 pip: 26.2.1
+2026-09-16 21:53:36,867:INFO:          setuptools: 65.5.0
+2026-09-16 21:53:36,867:INFO:             pycaret: 3.3.2
+2026-09-16 21:53:36,867:INFO:             IPython: 9.17.1
+2026-09-16 21:53:36,867:INFO:          ipywidgets: 8.1.9
+2026-09-16 21:53:36,867:INFO:                tqdm: 4.70.1
+2026-09-16 21:53:36,867:INFO:               numpy: 1.26.4
+2026-09-16 21:53:36,867:INFO:              pandas: 2.1.4
+2026-09-16 21:53:36,867:INFO:              jinja2: 3.1.6
+2026-09-16 21:53:36,867:INFO:               scipy: 1.11.4
+2026-09-16 21:53:36,867:INFO:              joblib: 1.3.2
+2026-09-16 21:53:36,867:INFO:             sklearn: 1.4.2
+2026-09-16 21:53:36,867:INFO:                pyod: 3.4.0
+2026-09-16 21:53:36,867:INFO:            imblearn: 0.14.2
+2026-09-16 21:53:36,867:INFO:   category_encoders: 2.7.0
+2026-09-16 21:53:36,867:INFO:            lightgbm: 4.7.0
+2026-09-16 21:53:36,867:INFO:               numba: 0.67.0
+2026-09-16 21:53:36,867:INFO:            requests: 2.34.2
+2026-09-16 21:53:36,867:INFO:          matplotlib: 3.7.5
+2026-09-16 21:53:36,867:INFO:          scikitplot: 0.3.7
+2026-09-16 21:53:36,867:INFO:         yellowbrick: 1.5
+2026-09-16 21:53:36,867:INFO:              plotly: 6.9.0
+2026-09-16 21:53:36,867:INFO:    plotly-resampler: Not installed
+2026-09-16 21:53:36,867:INFO:             kaleido: 1.4.0
+2026-09-16 21:53:36,867:INFO:           schemdraw: 0.15
+2026-09-16 21:53:36,867:INFO:         statsmodels: 0.15.0
+2026-09-16 21:53:36,867:INFO:              sktime: 0.26.0
+2026-09-16 21:53:36,867:INFO:               tbats: 1.1.3
+2026-09-16 21:53:36,867:INFO:            pmdarima: 2.0.4
+2026-09-16 21:53:36,867:INFO:              psutil: 7.2.2
+2026-09-16 21:53:36,867:INFO:          markupsafe: 3.0.3
+2026-09-16 21:53:36,867:INFO:             pickle5: Not installed
+2026-09-16 21:53:36,867:INFO:         cloudpickle: 3.1.2
+2026-09-16 21:53:36,867:INFO:         deprecation: 2.1.0
+2026-09-16 21:53:36,867:INFO:              xxhash: 4.0.1
+2026-09-16 21:53:36,867:INFO:           wurlitzer: Not installed
+2026-09-16 21:53:36,867:INFO:PyCaret optional dependencies:
+2026-09-16 21:53:36,867:INFO:                shap: Not installed
+2026-09-16 21:53:36,867:INFO:           interpret: Not installed
+2026-09-16 21:53:36,867:INFO:                umap: Not installed
+2026-09-16 21:53:36,867:INFO:     ydata_profiling: Not installed
+2026-09-16 21:53:36,867:INFO:  explainerdashboard: Not installed
+2026-09-16 21:53:36,867:INFO:             autoviz: Not installed
+2026-09-16 21:53:36,867:INFO:           fairlearn: Not installed
+2026-09-16 21:53:36,867:INFO:          deepchecks: Not installed
+2026-09-16 21:53:36,867:INFO:             xgboost: Not installed
+2026-09-16 21:53:36,867:INFO:            catboost: Not installed
+2026-09-16 21:53:36,867:INFO:              kmodes: Not installed
+2026-09-16 21:53:36,867:INFO:             mlxtend: Not installed
+2026-09-16 21:53:36,867:INFO:       statsforecast: Not installed
+2026-09-16 21:53:36,867:INFO:        tune_sklearn: Not installed
+2026-09-16 21:53:36,867:INFO:                 ray: Not installed
+2026-09-16 21:53:36,867:INFO:            hyperopt: Not installed
+2026-09-16 21:53:36,867:INFO:              optuna: Not installed
+2026-09-16 21:53:36,867:INFO:               skopt: Not installed
+2026-09-16 21:53:36,867:INFO:              mlflow: Not installed
+2026-09-16 21:53:36,867:INFO:              gradio: Not installed
+2026-09-16 21:53:36,867:INFO:             fastapi: Not installed
+2026-09-16 21:53:36,867:INFO:             uvicorn: Not installed
+2026-09-16 21:53:36,867:INFO:              m2cgen: Not installed
+2026-09-16 21:53:36,867:INFO:           evidently: Not installed
+2026-09-16 21:53:36,867:INFO:               fugue: Not installed
+2026-09-16 21:53:36,867:INFO:           streamlit: Not installed
+2026-09-16 21:53:36,867:INFO:             prophet: Not installed
+2026-09-16 21:53:36,867:INFO:None
+2026-09-16 21:53:36,867:INFO:Set up data.
+2026-09-16 21:53:36,867:INFO:Set up folding strategy.
+2026-09-16 21:53:36,867:INFO:Set up train/test split.
+2026-09-16 21:53:36,867:INFO:Set up index.
+2026-09-16 21:53:36,867:INFO:Assigning column types.
+2026-09-16 21:53:36,867:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2026-09-16 21:53:36,899:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2026-09-16 21:53:36,900:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2026-09-16 21:53:36,914:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-09-16 21:53:36,914:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-09-16 21:53:36,934:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2026-09-16 21:53:36,934:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2026-09-16 21:53:36,949:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-09-16 21:53:36,949:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-09-16 21:53:36,949:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2026-09-16 21:53:36,975:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2026-09-16 21:53:36,982:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-09-16 21:53:36,982:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-09-16 21:53:37,013:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2026-09-16 21:53:37,017:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-09-16 21:53:37,017:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-09-16 21:53:37,017:INFO:Engine successfully changes for model 'rbfsvm' to 'sklearn'.
+2026-09-16 21:53:37,065:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-09-16 21:53:37,065:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-09-16 21:53:37,098:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-09-16 21:53:37,098:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-09-16 21:53:37,098:INFO:Preparing preprocessing pipeline...
+2026-09-16 21:53:37,098:INFO:Set up simple imputation.
+2026-09-16 21:53:37,098:INFO:Finished creating preprocessing pipeline.
+2026-09-16 21:53:37,113:INFO:Pipeline: Pipeline(memory=FastMemory(location=C:\Users\LABORA~1\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['Idade', 'Pressao_Arterial',
+                                             'Colesterol_Total',
+                                             'Frequencia_Cardiaca_Max'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='mean'))),
+                ('categorical_imputer',
+                 TransformerWrapper(exclude=None, include=[],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='most_frequent')))],
+         verbose=False)
+2026-09-16 21:53:37,113:INFO:Creating final display dataframe.
+2026-09-16 21:53:37,137:INFO:Setup _display_container:                     Description             Value
+0                    Session id               123
+1                        Target  Risco_Internacao
+2                   Target type            Binary
+3           Original data shape          (250, 5)
+4        Transformed data shape          (250, 5)
+5   Transformed train set shape          (175, 5)
+6    Transformed test set shape           (75, 5)
+7              Numeric features                 4
+8                    Preprocess              True
+9               Imputation type            simple
+10           Numeric imputation              mean
+11       Categorical imputation              mode
+12               Fold Generator   StratifiedKFold
+13                  Fold Number                10
+14                     CPU Jobs                -1
+15                      Use GPU             False
+16               Log Experiment             False
+17              Experiment Name  clf-default-name
+18                          USI              c04a
+2026-09-16 21:53:37,177:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-09-16 21:53:37,177:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-09-16 21:53:37,214:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-09-16 21:53:37,214:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-09-16 21:53:37,214:INFO:setup() successfully completed in 0.35s...............
+2026-09-16 21:53:41,301:INFO:Initializing compare_models()
+2026-09-16 21:53:41,301:INFO:compare_models(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, include=None, exclude=None, fold=None, round=4, cross_validation=True, sort=Accuracy, n_select=1, budget_time=None, turbo=True, errors=ignore, fit_kwargs=None, groups=None, experiment_custom_tags=None, probability_threshold=None, verbose=True, parallel=None, caller_params={'self': <pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, 'include': None, 'exclude': None, 'fold': None, 'round': 4, 'cross_validation': True, 'sort': 'Accuracy', 'n_select': 1, 'budget_time': None, 'turbo': True, 'errors': 'ignore', 'fit_kwargs': None, 'groups': None, 'experiment_custom_tags': None, 'probability_threshold': None, 'engine': None, 'verbose': True, 'parallel': None, '__class__': <class 'pycaret.classification.oop.ClassificationExperiment'>})
+2026-09-16 21:53:41,301:INFO:Checking exceptions
+2026-09-16 21:53:41,306:INFO:Preparing display monitor
+2026-09-16 21:53:41,326:INFO:Initializing Logistic Regression
+2026-09-16 21:53:41,327:INFO:Total runtime is 1.6812483469645182e-05 minutes
+2026-09-16 21:53:41,330:INFO:SubProcess create_model() called ==================================
+2026-09-16 21:53:41,331:INFO:Initializing create_model()
+2026-09-16 21:53:41,331:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=lr, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000002878A3A74D0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-09-16 21:53:41,331:INFO:Checking exceptions
+2026-09-16 21:53:41,331:INFO:Importing libraries
+2026-09-16 21:53:41,331:INFO:Copying training dataset
+2026-09-16 21:53:41,335:INFO:Defining folds
+2026-09-16 21:53:41,335:INFO:Declaring metric variables
+2026-09-16 21:53:41,338:INFO:Importing untrained model
+2026-09-16 21:53:41,342:INFO:Logistic Regression Imported successfully
+2026-09-16 21:53:41,348:INFO:Starting cross validation
+2026-09-16 21:53:41,349:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-09-16 21:53:45,236:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:53:45,236:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:53:45,289:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:53:45,291:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:53:45,298:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:53:45,309:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:53:45,315:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:53:45,315:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:53:45,325:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:53:45,332:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:53:45,824:INFO:Calculating mean and std
+2026-09-16 21:53:45,824:INFO:Creating metrics dataframe
+2026-09-16 21:53:45,824:INFO:Uploading results into container
+2026-09-16 21:53:45,830:INFO:Uploading model into container now
+2026-09-16 21:53:45,831:INFO:_master_model_container: 1
+2026-09-16 21:53:45,831:INFO:_display_container: 2
+2026-09-16 21:53:45,832:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2026-09-16 21:53:45,832:INFO:create_model() successfully completed......................................
+2026-09-16 21:53:45,948:INFO:SubProcess create_model() end ==================================
+2026-09-16 21:53:45,948:INFO:Creating metrics dataframe
+2026-09-16 21:53:45,948:INFO:Initializing K Neighbors Classifier
+2026-09-16 21:53:45,948:INFO:Total runtime is 0.07703411181767782 minutes
+2026-09-16 21:53:45,948:INFO:SubProcess create_model() called ==================================
+2026-09-16 21:53:45,948:INFO:Initializing create_model()
+2026-09-16 21:53:45,948:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=knn, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000002878A3A74D0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-09-16 21:53:45,948:INFO:Checking exceptions
+2026-09-16 21:53:45,948:INFO:Importing libraries
+2026-09-16 21:53:45,948:INFO:Copying training dataset
+2026-09-16 21:53:45,948:INFO:Defining folds
+2026-09-16 21:53:45,948:INFO:Declaring metric variables
+2026-09-16 21:53:45,959:INFO:Importing untrained model
+2026-09-16 21:53:45,959:INFO:K Neighbors Classifier Imported successfully
+2026-09-16 21:53:45,963:INFO:Starting cross validation
+2026-09-16 21:53:45,964:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-09-16 21:53:48,992:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:53:49,001:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:53:49,001:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:53:49,003:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:53:49,010:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:53:49,012:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:53:49,012:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:53:49,016:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:53:49,041:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:53:49,074:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2026-09-16 21:53:49,792:INFO:Calculating mean and std
+2026-09-16 21:53:49,794:INFO:Creating metrics dataframe
+2026-09-16 21:53:49,796:INFO:Uploading results into container
+2026-09-16 21:53:49,797:INFO:Uploading model into container now
+2026-09-16 21:53:49,798:INFO:_master_model_container: 2
+2026-09-16 21:53:49,798:INFO:_display_container: 2
+2026-09-16 21:53:49,798:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform')
+2026-09-16 21:53:49,798:INFO:create_model() successfully completed......................................
+2026-09-16 21:53:49,887:INFO:SubProcess create_model() end ==================================
+2026-09-16 21:53:49,887:INFO:Creating metrics dataframe
+2026-09-16 21:53:49,891:INFO:Initializing Naive Bayes
+2026-09-16 21:53:49,891:INFO:Total runtime is 0.1427484154701233 minutes
+2026-09-16 21:53:49,893:INFO:SubProcess create_model() called ==================================
+2026-09-16 21:53:49,893:INFO:Initializing create_model()
+2026-09-16 21:53:49,893:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=nb, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000002878A3A74D0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-09-16 21:53:49,893:INFO:Checking exceptions
+2026-09-16 21:53:49,893:INFO:Importing libraries
+2026-09-16 21:53:49,893:INFO:Copying training dataset
+2026-09-16 21:53:49,895:INFO:Defining folds
+2026-09-16 21:53:49,895:INFO:Declaring metric variables
+2026-09-16 21:53:49,896:INFO:Importing untrained model
+2026-09-16 21:53:49,898:INFO:Naive Bayes Imported successfully
+2026-09-16 21:53:49,900:INFO:Starting cross validation
+2026-09-16 21:53:49,900:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-09-16 21:53:49,962:INFO:Calculating mean and std
+2026-09-16 21:53:49,962:INFO:Creating metrics dataframe
+2026-09-16 21:53:49,963:INFO:Uploading results into container
+2026-09-16 21:53:49,963:INFO:Uploading model into container now
+2026-09-16 21:53:49,963:INFO:_master_model_container: 3
+2026-09-16 21:53:49,963:INFO:_display_container: 2
+2026-09-16 21:53:49,963:INFO:GaussianNB(priors=None, var_smoothing=1e-09)
+2026-09-16 21:53:49,963:INFO:create_model() successfully completed......................................
+2026-09-16 21:53:50,028:INFO:SubProcess create_model() end ==================================
+2026-09-16 21:53:50,028:INFO:Creating metrics dataframe
+2026-09-16 21:53:50,040:INFO:Initializing Decision Tree Classifier
+2026-09-16 21:53:50,040:INFO:Total runtime is 0.14524120887120565 minutes
+2026-09-16 21:53:50,044:INFO:SubProcess create_model() called ==================================
+2026-09-16 21:53:50,044:INFO:Initializing create_model()
+2026-09-16 21:53:50,044:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=dt, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000002878A3A74D0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-09-16 21:53:50,044:INFO:Checking exceptions
+2026-09-16 21:53:50,044:INFO:Importing libraries
+2026-09-16 21:53:50,044:INFO:Copying training dataset
+2026-09-16 21:53:50,044:INFO:Defining folds
+2026-09-16 21:53:50,044:INFO:Declaring metric variables
+2026-09-16 21:53:50,049:INFO:Importing untrained model
+2026-09-16 21:53:50,050:INFO:Decision Tree Classifier Imported successfully
+2026-09-16 21:53:50,050:INFO:Starting cross validation
+2026-09-16 21:53:50,050:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-09-16 21:53:50,113:INFO:Calculating mean and std
+2026-09-16 21:53:50,114:INFO:Creating metrics dataframe
+2026-09-16 21:53:50,115:INFO:Uploading results into container
+2026-09-16 21:53:50,115:INFO:Uploading model into container now
+2026-09-16 21:53:50,115:INFO:_master_model_container: 4
+2026-09-16 21:53:50,115:INFO:_display_container: 2
+2026-09-16 21:53:50,115:INFO:DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=None, max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, random_state=123, splitter='best')
+2026-09-16 21:53:50,115:INFO:create_model() successfully completed......................................
+2026-09-16 21:53:50,183:INFO:SubProcess create_model() end ==================================
+2026-09-16 21:53:50,183:INFO:Creating metrics dataframe
+2026-09-16 21:53:50,183:INFO:Initializing SVM - Linear Kernel
+2026-09-16 21:53:50,183:INFO:Total runtime is 0.14761839707692465 minutes
+2026-09-16 21:53:50,183:INFO:SubProcess create_model() called ==================================
+2026-09-16 21:53:50,183:INFO:Initializing create_model()
+2026-09-16 21:53:50,183:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=svm, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000002878A3A74D0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-09-16 21:53:50,183:INFO:Checking exceptions
+2026-09-16 21:53:50,183:INFO:Importing libraries
+2026-09-16 21:53:50,183:INFO:Copying training dataset
+2026-09-16 21:53:50,197:INFO:Defining folds
+2026-09-16 21:53:50,197:INFO:Declaring metric variables
+2026-09-16 21:53:50,197:INFO:Importing untrained model
+2026-09-16 21:53:50,201:INFO:SVM - Linear Kernel Imported successfully
+2026-09-16 21:53:50,201:INFO:Starting cross validation
+2026-09-16 21:53:50,201:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-09-16 21:53:50,233:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2026-09-16 21:53:50,242:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2026-09-16 21:53:50,242:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2026-09-16 21:53:50,252:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2026-09-16 21:53:50,257:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2026-09-16 21:53:50,264:INFO:Calculating mean and std
+2026-09-16 21:53:50,264:INFO:Creating metrics dataframe
+2026-09-16 21:53:50,265:INFO:Uploading results into container
+2026-09-16 21:53:50,265:INFO:Uploading model into container now
+2026-09-16 21:53:50,265:INFO:_master_model_container: 5
+2026-09-16 21:53:50,265:INFO:_display_container: 2
+2026-09-16 21:53:50,265:INFO:SGDClassifier(alpha=0.0001, average=False, class_weight=None,
+              early_stopping=False, epsilon=0.1, eta0=0.001, fit_intercept=True,
+              l1_ratio=0.15, learning_rate='optimal', loss='hinge',
+              max_iter=1000, n_iter_no_change=5, n_jobs=-1, penalty='l2',
+              power_t=0.5, random_state=123, shuffle=True, tol=0.001,
+              validation_fraction=0.1, verbose=0, warm_start=False)
+2026-09-16 21:53:50,266:INFO:create_model() successfully completed......................................
+2026-09-16 21:53:50,329:INFO:SubProcess create_model() end ==================================
+2026-09-16 21:53:50,329:INFO:Creating metrics dataframe
+2026-09-16 21:53:50,343:INFO:Initializing Ridge Classifier
+2026-09-16 21:53:50,343:INFO:Total runtime is 0.15028012196222942 minutes
+2026-09-16 21:53:50,345:INFO:SubProcess create_model() called ==================================
+2026-09-16 21:53:50,345:INFO:Initializing create_model()
+2026-09-16 21:53:50,345:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=ridge, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000002878A3A74D0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-09-16 21:53:50,345:INFO:Checking exceptions
+2026-09-16 21:53:50,345:INFO:Importing libraries
+2026-09-16 21:53:50,345:INFO:Copying training dataset
+2026-09-16 21:53:50,345:INFO:Defining folds
+2026-09-16 21:53:50,345:INFO:Declaring metric variables
+2026-09-16 21:53:50,350:INFO:Importing untrained model
+2026-09-16 21:53:50,351:INFO:Ridge Classifier Imported successfully
+2026-09-16 21:53:50,351:INFO:Starting cross validation
+2026-09-16 21:53:50,351:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-09-16 21:53:50,414:INFO:Calculating mean and std
+2026-09-16 21:53:50,414:INFO:Creating metrics dataframe
+2026-09-16 21:53:50,415:INFO:Uploading results into container
+2026-09-16 21:53:50,415:INFO:Uploading model into container now
+2026-09-16 21:53:50,415:INFO:_master_model_container: 6
+2026-09-16 21:53:50,415:INFO:_display_container: 2
+2026-09-16 21:53:50,415:INFO:RidgeClassifier(alpha=1.0, class_weight=None, copy_X=True, fit_intercept=True,
+                max_iter=None, positive=False, random_state=123, solver='auto',
+                tol=0.0001)
+2026-09-16 21:53:50,415:INFO:create_model() successfully completed......................................
+2026-09-16 21:53:50,479:INFO:SubProcess create_model() end ==================================
+2026-09-16 21:53:50,479:INFO:Creating metrics dataframe
+2026-09-16 21:53:50,494:INFO:Initializing Random Forest Classifier
+2026-09-16 21:53:50,494:INFO:Total runtime is 0.15279757181803386 minutes
+2026-09-16 21:53:50,495:INFO:SubProcess create_model() called ==================================
+2026-09-16 21:53:50,495:INFO:Initializing create_model()
+2026-09-16 21:53:50,495:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=rf, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000002878A3A74D0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-09-16 21:53:50,495:INFO:Checking exceptions
+2026-09-16 21:53:50,497:INFO:Importing libraries
+2026-09-16 21:53:50,497:INFO:Copying training dataset
+2026-09-16 21:53:50,498:INFO:Defining folds
+2026-09-16 21:53:50,498:INFO:Declaring metric variables
+2026-09-16 21:53:50,500:INFO:Importing untrained model
+2026-09-16 21:53:50,501:INFO:Random Forest Classifier Imported successfully
+2026-09-16 21:53:50,501:INFO:Starting cross validation
+2026-09-16 21:53:50,501:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-09-16 21:53:50,944:INFO:Calculating mean and std
+2026-09-16 21:53:50,944:INFO:Creating metrics dataframe
+2026-09-16 21:53:50,944:INFO:Uploading results into container
+2026-09-16 21:53:50,944:INFO:Uploading model into container now
+2026-09-16 21:53:50,944:INFO:_master_model_container: 7
+2026-09-16 21:53:50,944:INFO:_display_container: 2
+2026-09-16 21:53:50,947:INFO:RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, n_estimators=100, n_jobs=-1,
+                       oob_score=False, random_state=123, verbose=0,
+                       warm_start=False)
+2026-09-16 21:53:50,947:INFO:create_model() successfully completed......................................
+2026-09-16 21:53:51,025:INFO:SubProcess create_model() end ==================================
+2026-09-16 21:53:51,025:INFO:Creating metrics dataframe
+2026-09-16 21:53:51,029:INFO:Initializing Quadratic Discriminant Analysis
+2026-09-16 21:53:51,029:INFO:Total runtime is 0.16171120007832845 minutes
+2026-09-16 21:53:51,030:INFO:SubProcess create_model() called ==================================
+2026-09-16 21:53:51,030:INFO:Initializing create_model()
+2026-09-16 21:53:51,030:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=qda, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000002878A3A74D0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-09-16 21:53:51,030:INFO:Checking exceptions
+2026-09-16 21:53:51,030:INFO:Importing libraries
+2026-09-16 21:53:51,030:INFO:Copying training dataset
+2026-09-16 21:53:51,032:INFO:Defining folds
+2026-09-16 21:53:51,032:INFO:Declaring metric variables
+2026-09-16 21:53:51,033:INFO:Importing untrained model
+2026-09-16 21:53:51,035:INFO:Quadratic Discriminant Analysis Imported successfully
+2026-09-16 21:53:51,038:INFO:Starting cross validation
+2026-09-16 21:53:51,039:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-09-16 21:53:51,106:INFO:Calculating mean and std
+2026-09-16 21:53:51,106:INFO:Creating metrics dataframe
+2026-09-16 21:53:51,106:INFO:Uploading results into container
+2026-09-16 21:53:51,106:INFO:Uploading model into container now
+2026-09-16 21:53:51,106:INFO:_master_model_container: 8
+2026-09-16 21:53:51,106:INFO:_display_container: 2
+2026-09-16 21:53:51,106:INFO:QuadraticDiscriminantAnalysis(priors=None, reg_param=0.0,
+                              store_covariance=False, tol=0.0001)
+2026-09-16 21:53:51,106:INFO:create_model() successfully completed......................................
+2026-09-16 21:53:51,180:INFO:SubProcess create_model() end ==================================
+2026-09-16 21:53:51,180:INFO:Creating metrics dataframe
+2026-09-16 21:53:51,180:INFO:Initializing Ada Boost Classifier
+2026-09-16 21:53:51,180:INFO:Total runtime is 0.16423651377360027 minutes
+2026-09-16 21:53:51,180:INFO:SubProcess create_model() called ==================================
+2026-09-16 21:53:51,180:INFO:Initializing create_model()
+2026-09-16 21:53:51,180:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=ada, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000002878A3A74D0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-09-16 21:53:51,180:INFO:Checking exceptions
+2026-09-16 21:53:51,180:INFO:Importing libraries
+2026-09-16 21:53:51,180:INFO:Copying training dataset
+2026-09-16 21:53:51,180:INFO:Defining folds
+2026-09-16 21:53:51,180:INFO:Declaring metric variables
+2026-09-16 21:53:51,180:INFO:Importing untrained model
+2026-09-16 21:53:51,180:INFO:Ada Boost Classifier Imported successfully
+2026-09-16 21:53:51,195:INFO:Starting cross validation
+2026-09-16 21:53:51,195:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-09-16 21:53:51,211:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\ensemble\_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2026-09-16 21:53:51,211:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\ensemble\_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2026-09-16 21:53:51,213:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\ensemble\_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2026-09-16 21:53:51,214:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\ensemble\_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2026-09-16 21:53:51,217:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\ensemble\_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2026-09-16 21:53:51,223:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\ensemble\_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2026-09-16 21:53:51,223:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\ensemble\_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2026-09-16 21:53:51,225:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\ensemble\_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2026-09-16 21:53:51,227:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\ensemble\_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2026-09-16 21:53:51,232:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\ensemble\_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2026-09-16 21:53:51,406:INFO:Calculating mean and std
+2026-09-16 21:53:51,406:INFO:Creating metrics dataframe
+2026-09-16 21:53:51,406:INFO:Uploading results into container
+2026-09-16 21:53:51,406:INFO:Uploading model into container now
+2026-09-16 21:53:51,406:INFO:_master_model_container: 9
+2026-09-16 21:53:51,406:INFO:_display_container: 2
+2026-09-16 21:53:51,406:INFO:AdaBoostClassifier(algorithm='SAMME.R', estimator=None, learning_rate=1.0,
+                   n_estimators=50, random_state=123)
+2026-09-16 21:53:51,409:INFO:create_model() successfully completed......................................
+2026-09-16 21:53:51,480:INFO:SubProcess create_model() end ==================================
+2026-09-16 21:53:51,480:INFO:Creating metrics dataframe
+2026-09-16 21:53:51,480:INFO:Initializing Gradient Boosting Classifier
+2026-09-16 21:53:51,480:INFO:Total runtime is 0.16922797362009684 minutes
+2026-09-16 21:53:51,480:INFO:SubProcess create_model() called ==================================
+2026-09-16 21:53:51,480:INFO:Initializing create_model()
+2026-09-16 21:53:51,480:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=gbc, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000002878A3A74D0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-09-16 21:53:51,480:INFO:Checking exceptions
+2026-09-16 21:53:51,480:INFO:Importing libraries
+2026-09-16 21:53:51,480:INFO:Copying training dataset
+2026-09-16 21:53:51,480:INFO:Defining folds
+2026-09-16 21:53:51,480:INFO:Declaring metric variables
+2026-09-16 21:53:51,480:INFO:Importing untrained model
+2026-09-16 21:53:51,480:INFO:Gradient Boosting Classifier Imported successfully
+2026-09-16 21:53:51,497:INFO:Starting cross validation
+2026-09-16 21:53:51,498:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-09-16 21:53:51,685:INFO:Calculating mean and std
+2026-09-16 21:53:51,685:INFO:Creating metrics dataframe
+2026-09-16 21:53:51,687:INFO:Uploading results into container
+2026-09-16 21:53:51,687:INFO:Uploading model into container now
+2026-09-16 21:53:51,687:INFO:_master_model_container: 10
+2026-09-16 21:53:51,687:INFO:_display_container: 2
+2026-09-16 21:53:51,688:INFO:GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.1, loss='log_loss', max_depth=3,
+                           max_features=None, max_leaf_nodes=None,
+                           min_impurity_decrease=0.0, min_samples_leaf=1,
+                           min_samples_split=2, min_weight_fraction_leaf=0.0,
+                           n_estimators=100, n_iter_no_change=None,
+                           random_state=123, subsample=1.0, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False)
+2026-09-16 21:53:51,688:INFO:create_model() successfully completed......................................
+2026-09-16 21:53:51,749:INFO:SubProcess create_model() end ==================================
+2026-09-16 21:53:51,749:INFO:Creating metrics dataframe
+2026-09-16 21:53:51,764:INFO:Initializing Linear Discriminant Analysis
+2026-09-16 21:53:51,764:INFO:Total runtime is 0.17396128177642822 minutes
+2026-09-16 21:53:51,764:INFO:SubProcess create_model() called ==================================
+2026-09-16 21:53:51,764:INFO:Initializing create_model()
+2026-09-16 21:53:51,764:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=lda, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000002878A3A74D0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-09-16 21:53:51,764:INFO:Checking exceptions
+2026-09-16 21:53:51,764:INFO:Importing libraries
+2026-09-16 21:53:51,764:INFO:Copying training dataset
+2026-09-16 21:53:51,764:INFO:Defining folds
+2026-09-16 21:53:51,764:INFO:Declaring metric variables
+2026-09-16 21:53:51,764:INFO:Importing untrained model
+2026-09-16 21:53:51,764:INFO:Linear Discriminant Analysis Imported successfully
+2026-09-16 21:53:51,764:INFO:Starting cross validation
+2026-09-16 21:53:51,764:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-09-16 21:53:51,833:INFO:Calculating mean and std
+2026-09-16 21:53:51,834:INFO:Creating metrics dataframe
+2026-09-16 21:53:51,835:INFO:Uploading results into container
+2026-09-16 21:53:51,835:INFO:Uploading model into container now
+2026-09-16 21:53:51,835:INFO:_master_model_container: 11
+2026-09-16 21:53:51,836:INFO:_display_container: 2
+2026-09-16 21:53:51,836:INFO:LinearDiscriminantAnalysis(covariance_estimator=None, n_components=None,
+                           priors=None, shrinkage=None, solver='svd',
+                           store_covariance=False, tol=0.0001)
+2026-09-16 21:53:51,836:INFO:create_model() successfully completed......................................
+2026-09-16 21:53:51,909:INFO:SubProcess create_model() end ==================================
+2026-09-16 21:53:51,909:INFO:Creating metrics dataframe
+2026-09-16 21:53:51,914:INFO:Initializing Extra Trees Classifier
+2026-09-16 21:53:51,914:INFO:Total runtime is 0.1764630913734436 minutes
+2026-09-16 21:53:51,914:INFO:SubProcess create_model() called ==================================
+2026-09-16 21:53:51,914:INFO:Initializing create_model()
+2026-09-16 21:53:51,914:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=et, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000002878A3A74D0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-09-16 21:53:51,914:INFO:Checking exceptions
+2026-09-16 21:53:51,914:INFO:Importing libraries
+2026-09-16 21:53:51,914:INFO:Copying training dataset
+2026-09-16 21:53:51,914:INFO:Defining folds
+2026-09-16 21:53:51,914:INFO:Declaring metric variables
+2026-09-16 21:53:51,914:INFO:Importing untrained model
+2026-09-16 21:53:51,914:INFO:Extra Trees Classifier Imported successfully
+2026-09-16 21:53:51,914:INFO:Starting cross validation
+2026-09-16 21:53:51,914:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-09-16 21:53:52,324:INFO:Calculating mean and std
+2026-09-16 21:53:52,324:INFO:Creating metrics dataframe
+2026-09-16 21:53:52,324:INFO:Uploading results into container
+2026-09-16 21:53:52,324:INFO:Uploading model into container now
+2026-09-16 21:53:52,324:INFO:_master_model_container: 12
+2026-09-16 21:53:52,324:INFO:_display_container: 2
+2026-09-16 21:53:52,324:INFO:ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     monotonic_cst=None, n_estimators=100, n_jobs=-1,
+                     oob_score=False, random_state=123, verbose=0,
+                     warm_start=False)
+2026-09-16 21:53:52,324:INFO:create_model() successfully completed......................................
+2026-09-16 21:53:52,399:INFO:SubProcess create_model() end ==================================
+2026-09-16 21:53:52,399:INFO:Creating metrics dataframe
+2026-09-16 21:53:52,399:INFO:Initializing Light Gradient Boosting Machine
+2026-09-16 21:53:52,399:INFO:Total runtime is 0.18454684019088743 minutes
+2026-09-16 21:53:52,399:INFO:SubProcess create_model() called ==================================
+2026-09-16 21:53:52,399:INFO:Initializing create_model()
+2026-09-16 21:53:52,399:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=lightgbm, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000002878A3A74D0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-09-16 21:53:52,399:INFO:Checking exceptions
+2026-09-16 21:53:52,399:INFO:Importing libraries
+2026-09-16 21:53:52,399:INFO:Copying training dataset
+2026-09-16 21:53:52,399:INFO:Defining folds
+2026-09-16 21:53:52,399:INFO:Declaring metric variables
+2026-09-16 21:53:52,399:INFO:Importing untrained model
+2026-09-16 21:53:52,414:INFO:Light Gradient Boosting Machine Imported successfully
+2026-09-16 21:53:52,414:INFO:Starting cross validation
+2026-09-16 21:53:52,414:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-09-16 21:53:52,802:INFO:Calculating mean and std
+2026-09-16 21:53:52,802:INFO:Creating metrics dataframe
+2026-09-16 21:53:52,804:INFO:Uploading results into container
+2026-09-16 21:53:52,804:INFO:Uploading model into container now
+2026-09-16 21:53:52,804:INFO:_master_model_container: 13
+2026-09-16 21:53:52,804:INFO:_display_container: 2
+2026-09-16 21:53:52,806:INFO:LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=123, reg_alpha=0.0, reg_lambda=0.0, subsample=1.0,
+               subsample_for_bin=200000, subsample_freq=0)
+2026-09-16 21:53:52,806:INFO:create_model() successfully completed......................................
+2026-09-16 21:53:52,880:INFO:SubProcess create_model() end ==================================
+2026-09-16 21:53:52,880:INFO:Creating metrics dataframe
+2026-09-16 21:53:52,897:INFO:Initializing Dummy Classifier
+2026-09-16 21:53:52,897:INFO:Total runtime is 0.1928549567858378 minutes
+2026-09-16 21:53:52,897:INFO:SubProcess create_model() called ==================================
+2026-09-16 21:53:52,897:INFO:Initializing create_model()
+2026-09-16 21:53:52,897:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=dummy, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000002878A3A74D0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-09-16 21:53:52,897:INFO:Checking exceptions
+2026-09-16 21:53:52,897:INFO:Importing libraries
+2026-09-16 21:53:52,897:INFO:Copying training dataset
+2026-09-16 21:53:52,897:INFO:Defining folds
+2026-09-16 21:53:52,897:INFO:Declaring metric variables
+2026-09-16 21:53:52,897:INFO:Importing untrained model
+2026-09-16 21:53:52,897:INFO:Dummy Classifier Imported successfully
+2026-09-16 21:53:52,897:INFO:Starting cross validation
+2026-09-16 21:53:52,897:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-09-16 21:53:52,945:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2026-09-16 21:53:52,954:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2026-09-16 21:53:52,956:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2026-09-16 21:53:52,966:INFO:Calculating mean and std
+2026-09-16 21:53:52,967:INFO:Creating metrics dataframe
+2026-09-16 21:53:52,968:INFO:Uploading results into container
+2026-09-16 21:53:52,968:INFO:Uploading model into container now
+2026-09-16 21:53:52,968:INFO:_master_model_container: 14
+2026-09-16 21:53:52,968:INFO:_display_container: 2
+2026-09-16 21:53:52,968:INFO:DummyClassifier(constant=None, random_state=123, strategy='prior')
+2026-09-16 21:53:52,968:INFO:create_model() successfully completed......................................
+2026-09-16 21:53:53,031:INFO:SubProcess create_model() end ==================================
+2026-09-16 21:53:53,031:INFO:Creating metrics dataframe
+2026-09-16 21:53:53,049:WARNING:c:\Users\laboratorio\Desktop\Nova Pasta\PyCaret\.venv\Lib\site-packages\pycaret\internal\pycaret_experiment\supervised_experiment.py:339: FutureWarning: Styler.applymap has been deprecated. Use Styler.map instead.
+  .applymap(highlight_cols, subset=["TT (Sec)"])
+
+2026-09-16 21:53:53,049:INFO:Initializing create_model()
+2026-09-16 21:53:53,049:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform'), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-09-16 21:53:53,049:INFO:Checking exceptions
+2026-09-16 21:53:53,049:INFO:Importing libraries
+2026-09-16 21:53:53,049:INFO:Copying training dataset
+2026-09-16 21:53:53,049:INFO:Defining folds
+2026-09-16 21:53:53,049:INFO:Declaring metric variables
+2026-09-16 21:53:53,049:INFO:Importing untrained model
+2026-09-16 21:53:53,049:INFO:Declaring custom model
+2026-09-16 21:53:53,049:INFO:K Neighbors Classifier Imported successfully
+2026-09-16 21:53:53,049:INFO:Cross validation set to False
+2026-09-16 21:53:53,049:INFO:Fitting Model
+2026-09-16 21:53:53,049:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform')
+2026-09-16 21:53:53,049:INFO:create_model() successfully completed......................................
+2026-09-16 21:53:53,148:INFO:_master_model_container: 14
+2026-09-16 21:53:53,148:INFO:_display_container: 2
+2026-09-16 21:53:53,148:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform')
+2026-09-16 21:53:53,148:INFO:compare_models() successfully completed......................................
+2026-09-16 21:54:28,582:INFO:Initializing create_model()
+2026-09-16 21:54:28,582:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform'), fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-09-16 21:54:28,582:INFO:Checking exceptions
+2026-09-16 21:54:28,594:INFO:Importing libraries
+2026-09-16 21:54:28,594:INFO:Copying training dataset
+2026-09-16 21:54:28,597:INFO:Defining folds
+2026-09-16 21:54:28,597:INFO:Declaring metric variables
+2026-09-16 21:54:28,599:INFO:Importing untrained model
+2026-09-16 21:54:28,600:INFO:Declaring custom model
+2026-09-16 21:54:28,603:INFO:K Neighbors Classifier Imported successfully
+2026-09-16 21:54:28,606:INFO:Starting cross validation
+2026-09-16 21:54:28,607:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-09-16 21:54:28,776:INFO:Calculating mean and std
+2026-09-16 21:54:28,776:INFO:Creating metrics dataframe
+2026-09-16 21:54:28,779:INFO:Finalizing model
+2026-09-16 21:54:28,785:INFO:Uploading results into container
+2026-09-16 21:54:28,785:INFO:Uploading model into container now
+2026-09-16 21:54:28,792:INFO:_master_model_container: 15
+2026-09-16 21:54:28,792:INFO:_display_container: 3
+2026-09-16 21:54:28,792:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform')
+2026-09-16 21:54:28,792:INFO:create_model() successfully completed......................................
+2026-09-16 21:54:43,396:INFO:Initializing evaluate_model()
+2026-09-16 21:54:43,396:INFO:evaluate_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform'), fold=None, fit_kwargs=None, plot_kwargs=None, feature_name=None, groups=None)
+2026-09-16 21:54:43,398:INFO:Initializing plot_model()
+2026-09-16 21:54:43,402:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform'), plot=pipeline, scale=1, save=False, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), fit_kwargs={}, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=False, system=True, display=None, display_format=None)
+2026-09-16 21:54:43,402:INFO:Checking exceptions
+2026-09-16 21:54:43,402:INFO:Preloading libraries
+2026-09-16 21:54:43,402:INFO:Copying training dataset
+2026-09-16 21:54:43,402:INFO:Plot type: pipeline
+2026-09-16 21:54:43,440:INFO:Visual Rendered Successfully
+2026-09-16 21:54:43,519:INFO:plot_model() successfully completed......................................
+2026-09-16 21:54:55,898:INFO:Initializing evaluate_model()
+2026-09-16 21:54:55,898:INFO:evaluate_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform'), fold=None, fit_kwargs=None, plot_kwargs=None, feature_name=None, groups=None)
+2026-09-16 21:54:55,908:INFO:Initializing plot_model()
+2026-09-16 21:54:55,909:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform'), plot=pipeline, scale=1, save=False, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), fit_kwargs={}, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=False, system=True, display=None, display_format=None)
+2026-09-16 21:54:55,909:INFO:Checking exceptions
+2026-09-16 21:54:55,909:INFO:Preloading libraries
+2026-09-16 21:54:55,910:INFO:Copying training dataset
+2026-09-16 21:54:55,910:INFO:Plot type: pipeline
+2026-09-16 21:54:55,956:INFO:Visual Rendered Successfully
+2026-09-16 21:54:56,031:INFO:plot_model() successfully completed......................................
+2026-09-16 21:55:41,791:INFO:Initializing tune_model()
+2026-09-16 21:55:41,791:INFO:tune_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform'), fold=None, round=4, n_iter=10, custom_grid=None, optimize=Accuracy, custom_scorer=None, search_library=scikit-learn, search_algorithm=None, early_stopping=False, early_stopping_max_iters=10, choose_better=True, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, return_train_score=False, kwargs={})
+2026-09-16 21:55:41,791:INFO:Checking exceptions
+2026-09-16 21:55:41,800:INFO:Copying training dataset
+2026-09-16 21:55:41,802:INFO:Checking base model
+2026-09-16 21:55:41,802:INFO:Base model : K Neighbors Classifier
+2026-09-16 21:55:41,804:INFO:Declaring metric variables
+2026-09-16 21:55:41,806:INFO:Defining Hyperparameters
+2026-09-16 21:55:41,893:INFO:Tuning with n_jobs=-1
+2026-09-16 21:55:41,893:INFO:Initializing RandomizedSearchCV
+2026-09-16 21:55:42,488:INFO:best_params: {'actual_estimator__weights': 'distance', 'actual_estimator__n_neighbors': 12, 'actual_estimator__metric': 'euclidean'}
+2026-09-16 21:55:42,488:INFO:Hyperparameter search completed
+2026-09-16 21:55:42,488:INFO:SubProcess create_model() called ==================================
+2026-09-16 21:55:42,488:INFO:Initializing create_model()
+2026-09-16 21:55:42,488:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform'), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000287384CB050>, model_only=True, return_train_score=False, error_score=0.0, kwargs={'weights': 'distance', 'n_neighbors': 12, 'metric': 'euclidean'})
+2026-09-16 21:55:42,488:INFO:Checking exceptions
+2026-09-16 21:55:42,488:INFO:Importing libraries
+2026-09-16 21:55:42,488:INFO:Copying training dataset
+2026-09-16 21:55:42,488:INFO:Defining folds
+2026-09-16 21:55:42,488:INFO:Declaring metric variables
+2026-09-16 21:55:42,488:INFO:Importing untrained model
+2026-09-16 21:55:42,488:INFO:Declaring custom model
+2026-09-16 21:55:42,488:INFO:K Neighbors Classifier Imported successfully
+2026-09-16 21:55:42,497:INFO:Starting cross validation
+2026-09-16 21:55:42,497:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-09-16 21:55:42,648:INFO:Calculating mean and std
+2026-09-16 21:55:42,648:INFO:Creating metrics dataframe
+2026-09-16 21:55:42,651:INFO:Finalizing model
+2026-09-16 21:55:42,653:INFO:Uploading results into container
+2026-09-16 21:55:42,658:INFO:Uploading model into container now
+2026-09-16 21:55:42,658:INFO:_master_model_container: 16
+2026-09-16 21:55:42,658:INFO:_display_container: 4
+2026-09-16 21:55:42,658:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='euclidean',
+                     metric_params=None, n_jobs=-1, n_neighbors=12, p=2,
+                     weights='distance')
+2026-09-16 21:55:42,658:INFO:create_model() successfully completed......................................
+2026-09-16 21:55:42,739:INFO:SubProcess create_model() end ==================================
+2026-09-16 21:55:42,739:INFO:choose_better activated
+2026-09-16 21:55:42,741:INFO:SubProcess create_model() called ==================================
+2026-09-16 21:55:42,741:INFO:Initializing create_model()
+2026-09-16 21:55:42,741:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform'), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-09-16 21:55:42,742:INFO:Checking exceptions
+2026-09-16 21:55:42,742:INFO:Importing libraries
+2026-09-16 21:55:42,742:INFO:Copying training dataset
+2026-09-16 21:55:42,744:INFO:Defining folds
+2026-09-16 21:55:42,744:INFO:Declaring metric variables
+2026-09-16 21:55:42,744:INFO:Importing untrained model
+2026-09-16 21:55:42,744:INFO:Declaring custom model
+2026-09-16 21:55:42,744:INFO:K Neighbors Classifier Imported successfully
+2026-09-16 21:55:42,744:INFO:Starting cross validation
+2026-09-16 21:55:42,745:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-09-16 21:55:42,896:INFO:Calculating mean and std
+2026-09-16 21:55:42,896:INFO:Creating metrics dataframe
+2026-09-16 21:55:42,897:INFO:Finalizing model
+2026-09-16 21:55:42,897:INFO:Uploading results into container
+2026-09-16 21:55:42,897:INFO:Uploading model into container now
+2026-09-16 21:55:42,897:INFO:_master_model_container: 17
+2026-09-16 21:55:42,897:INFO:_display_container: 5
+2026-09-16 21:55:42,897:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform')
+2026-09-16 21:55:42,897:INFO:create_model() successfully completed......................................
+2026-09-16 21:55:42,964:INFO:SubProcess create_model() end ==================================
+2026-09-16 21:55:42,964:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform') result for Accuracy is 0.784
+2026-09-16 21:55:42,964:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='euclidean',
+                     metric_params=None, n_jobs=-1, n_neighbors=12, p=2,
+                     weights='distance') result for Accuracy is 0.8131
+2026-09-16 21:55:42,979:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='euclidean',
+                     metric_params=None, n_jobs=-1, n_neighbors=12, p=2,
+                     weights='distance') is best model
+2026-09-16 21:55:42,979:INFO:choose_better completed
+2026-09-16 21:55:42,981:INFO:_master_model_container: 17
+2026-09-16 21:55:42,981:INFO:_display_container: 4
+2026-09-16 21:55:42,981:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='euclidean',
+                     metric_params=None, n_jobs=-1, n_neighbors=12, p=2,
+                     weights='distance')
+2026-09-16 21:55:42,981:INFO:tune_model() successfully completed......................................
+2026-09-16 21:55:58,833:INFO:Initializing tune_model()
+2026-09-16 21:55:58,833:INFO:tune_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform'), fold=None, round=4, n_iter=10, custom_grid=None, optimize=Accuracy, custom_scorer=None, search_library=scikit-learn, search_algorithm=None, early_stopping=False, early_stopping_max_iters=10, choose_better=True, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, return_train_score=False, kwargs={})
+2026-09-16 21:55:58,833:INFO:Checking exceptions
+2026-09-16 21:55:58,847:INFO:Copying training dataset
+2026-09-16 21:55:58,849:INFO:Checking base model
+2026-09-16 21:55:58,849:INFO:Base model : K Neighbors Classifier
+2026-09-16 21:55:58,851:INFO:Declaring metric variables
+2026-09-16 21:55:58,853:INFO:Defining Hyperparameters
+2026-09-16 21:55:58,941:INFO:Tuning with n_jobs=-1
+2026-09-16 21:55:58,941:INFO:Initializing RandomizedSearchCV
+2026-09-16 21:55:59,544:INFO:best_params: {'actual_estimator__weights': 'distance', 'actual_estimator__n_neighbors': 12, 'actual_estimator__metric': 'euclidean'}
+2026-09-16 21:55:59,544:INFO:Hyperparameter search completed
+2026-09-16 21:55:59,544:INFO:SubProcess create_model() called ==================================
+2026-09-16 21:55:59,545:INFO:Initializing create_model()
+2026-09-16 21:55:59,545:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform'), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000287384EB890>, model_only=True, return_train_score=False, error_score=0.0, kwargs={'weights': 'distance', 'n_neighbors': 12, 'metric': 'euclidean'})
+2026-09-16 21:55:59,545:INFO:Checking exceptions
+2026-09-16 21:55:59,545:INFO:Importing libraries
+2026-09-16 21:55:59,545:INFO:Copying training dataset
+2026-09-16 21:55:59,547:INFO:Defining folds
+2026-09-16 21:55:59,547:INFO:Declaring metric variables
+2026-09-16 21:55:59,547:INFO:Importing untrained model
+2026-09-16 21:55:59,547:INFO:Declaring custom model
+2026-09-16 21:55:59,547:INFO:K Neighbors Classifier Imported successfully
+2026-09-16 21:55:59,547:INFO:Starting cross validation
+2026-09-16 21:55:59,547:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-09-16 21:55:59,715:INFO:Calculating mean and std
+2026-09-16 21:55:59,715:INFO:Creating metrics dataframe
+2026-09-16 21:55:59,718:INFO:Finalizing model
+2026-09-16 21:55:59,724:INFO:Uploading results into container
+2026-09-16 21:55:59,724:INFO:Uploading model into container now
+2026-09-16 21:55:59,724:INFO:_master_model_container: 18
+2026-09-16 21:55:59,724:INFO:_display_container: 5
+2026-09-16 21:55:59,725:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='euclidean',
+                     metric_params=None, n_jobs=-1, n_neighbors=12, p=2,
+                     weights='distance')
+2026-09-16 21:55:59,725:INFO:create_model() successfully completed......................................
+2026-09-16 21:55:59,807:INFO:SubProcess create_model() end ==================================
+2026-09-16 21:55:59,807:INFO:choose_better activated
+2026-09-16 21:55:59,808:INFO:SubProcess create_model() called ==================================
+2026-09-16 21:55:59,809:INFO:Initializing create_model()
+2026-09-16 21:55:59,809:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform'), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-09-16 21:55:59,809:INFO:Checking exceptions
+2026-09-16 21:55:59,809:INFO:Importing libraries
+2026-09-16 21:55:59,810:INFO:Copying training dataset
+2026-09-16 21:55:59,811:INFO:Defining folds
+2026-09-16 21:55:59,811:INFO:Declaring metric variables
+2026-09-16 21:55:59,811:INFO:Importing untrained model
+2026-09-16 21:55:59,811:INFO:Declaring custom model
+2026-09-16 21:55:59,811:INFO:K Neighbors Classifier Imported successfully
+2026-09-16 21:55:59,811:INFO:Starting cross validation
+2026-09-16 21:55:59,812:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-09-16 21:55:59,973:INFO:Calculating mean and std
+2026-09-16 21:55:59,973:INFO:Creating metrics dataframe
+2026-09-16 21:55:59,974:INFO:Finalizing model
+2026-09-16 21:55:59,977:INFO:Uploading results into container
+2026-09-16 21:55:59,978:INFO:Uploading model into container now
+2026-09-16 21:55:59,978:INFO:_master_model_container: 19
+2026-09-16 21:55:59,978:INFO:_display_container: 6
+2026-09-16 21:55:59,978:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform')
+2026-09-16 21:55:59,978:INFO:create_model() successfully completed......................................
+2026-09-16 21:56:00,059:INFO:SubProcess create_model() end ==================================
+2026-09-16 21:56:00,059:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform') result for Accuracy is 0.784
+2026-09-16 21:56:00,059:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='euclidean',
+                     metric_params=None, n_jobs=-1, n_neighbors=12, p=2,
+                     weights='distance') result for Accuracy is 0.8131
+2026-09-16 21:56:00,059:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='euclidean',
+                     metric_params=None, n_jobs=-1, n_neighbors=12, p=2,
+                     weights='distance') is best model
+2026-09-16 21:56:00,059:INFO:choose_better completed
+2026-09-16 21:56:00,064:INFO:_master_model_container: 19
+2026-09-16 21:56:00,064:INFO:_display_container: 5
+2026-09-16 21:56:00,064:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='euclidean',
+                     metric_params=None, n_jobs=-1, n_neighbors=12, p=2,
+                     weights='distance')
+2026-09-16 21:56:00,064:INFO:tune_model() successfully completed......................................
+2026-09-16 21:56:16,719:INFO:Initializing tune_model()
+2026-09-16 21:56:16,719:INFO:tune_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform'), fold=None, round=4, n_iter=10, custom_grid=None, optimize=Accuracy, custom_scorer=None, search_library=scikit-learn, search_algorithm=None, early_stopping=False, early_stopping_max_iters=10, choose_better=True, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, return_train_score=False, kwargs={})
+2026-09-16 21:56:16,719:INFO:Checking exceptions
+2026-09-16 21:56:16,729:INFO:Copying training dataset
+2026-09-16 21:56:16,731:INFO:Checking base model
+2026-09-16 21:56:16,731:INFO:Base model : K Neighbors Classifier
+2026-09-16 21:56:16,733:INFO:Declaring metric variables
+2026-09-16 21:56:16,735:INFO:Defining Hyperparameters
+2026-09-16 21:56:16,834:INFO:Tuning with n_jobs=-1
+2026-09-16 21:56:16,834:INFO:Initializing RandomizedSearchCV
+2026-09-16 21:56:17,446:INFO:best_params: {'actual_estimator__weights': 'distance', 'actual_estimator__n_neighbors': 12, 'actual_estimator__metric': 'euclidean'}
+2026-09-16 21:56:17,446:INFO:Hyperparameter search completed
+2026-09-16 21:56:17,446:INFO:SubProcess create_model() called ==================================
+2026-09-16 21:56:17,446:INFO:Initializing create_model()
+2026-09-16 21:56:17,446:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform'), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x0000028738282A90>, model_only=True, return_train_score=False, error_score=0.0, kwargs={'weights': 'distance', 'n_neighbors': 12, 'metric': 'euclidean'})
+2026-09-16 21:56:17,446:INFO:Checking exceptions
+2026-09-16 21:56:17,446:INFO:Importing libraries
+2026-09-16 21:56:17,446:INFO:Copying training dataset
+2026-09-16 21:56:17,447:INFO:Defining folds
+2026-09-16 21:56:17,447:INFO:Declaring metric variables
+2026-09-16 21:56:17,447:INFO:Importing untrained model
+2026-09-16 21:56:17,447:INFO:Declaring custom model
+2026-09-16 21:56:17,447:INFO:K Neighbors Classifier Imported successfully
+2026-09-16 21:56:17,447:INFO:Starting cross validation
+2026-09-16 21:56:17,447:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-09-16 21:56:17,616:INFO:Calculating mean and std
+2026-09-16 21:56:17,616:INFO:Creating metrics dataframe
+2026-09-16 21:56:17,617:INFO:Finalizing model
+2026-09-16 21:56:17,622:INFO:Uploading results into container
+2026-09-16 21:56:17,625:INFO:Uploading model into container now
+2026-09-16 21:56:17,625:INFO:_master_model_container: 20
+2026-09-16 21:56:17,625:INFO:_display_container: 6
+2026-09-16 21:56:17,626:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='euclidean',
+                     metric_params=None, n_jobs=-1, n_neighbors=12, p=2,
+                     weights='distance')
+2026-09-16 21:56:17,626:INFO:create_model() successfully completed......................................
+2026-09-16 21:56:17,698:INFO:SubProcess create_model() end ==================================
+2026-09-16 21:56:17,698:INFO:choose_better activated
+2026-09-16 21:56:17,698:INFO:SubProcess create_model() called ==================================
+2026-09-16 21:56:17,698:INFO:Initializing create_model()
+2026-09-16 21:56:17,698:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform'), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-09-16 21:56:17,698:INFO:Checking exceptions
+2026-09-16 21:56:17,698:INFO:Importing libraries
+2026-09-16 21:56:17,698:INFO:Copying training dataset
+2026-09-16 21:56:17,698:INFO:Defining folds
+2026-09-16 21:56:17,698:INFO:Declaring metric variables
+2026-09-16 21:56:17,698:INFO:Importing untrained model
+2026-09-16 21:56:17,698:INFO:Declaring custom model
+2026-09-16 21:56:17,712:INFO:K Neighbors Classifier Imported successfully
+2026-09-16 21:56:17,712:INFO:Starting cross validation
+2026-09-16 21:56:17,712:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-09-16 21:56:17,872:INFO:Calculating mean and std
+2026-09-16 21:56:17,872:INFO:Creating metrics dataframe
+2026-09-16 21:56:17,872:INFO:Finalizing model
+2026-09-16 21:56:17,872:INFO:Uploading results into container
+2026-09-16 21:56:17,872:INFO:Uploading model into container now
+2026-09-16 21:56:17,872:INFO:_master_model_container: 21
+2026-09-16 21:56:17,872:INFO:_display_container: 7
+2026-09-16 21:56:17,872:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform')
+2026-09-16 21:56:17,872:INFO:create_model() successfully completed......................................
+2026-09-16 21:56:17,948:INFO:SubProcess create_model() end ==================================
+2026-09-16 21:56:17,948:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform') result for Accuracy is 0.784
+2026-09-16 21:56:17,948:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='euclidean',
+                     metric_params=None, n_jobs=-1, n_neighbors=12, p=2,
+                     weights='distance') result for Accuracy is 0.8131
+2026-09-16 21:56:17,948:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='euclidean',
+                     metric_params=None, n_jobs=-1, n_neighbors=12, p=2,
+                     weights='distance') is best model
+2026-09-16 21:56:17,948:INFO:choose_better completed
+2026-09-16 21:56:17,948:INFO:_master_model_container: 21
+2026-09-16 21:56:17,948:INFO:_display_container: 6
+2026-09-16 21:56:17,948:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='euclidean',
+                     metric_params=None, n_jobs=-1, n_neighbors=12, p=2,
+                     weights='distance')
+2026-09-16 21:56:17,948:INFO:tune_model() successfully completed......................................
+2026-09-16 21:56:55,995:INFO:Initializing create_model()
+2026-09-16 21:56:55,995:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform'), fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-09-16 21:56:55,995:INFO:Checking exceptions
+2026-09-16 21:56:56,003:INFO:Importing libraries
+2026-09-16 21:56:56,003:INFO:Copying training dataset
+2026-09-16 21:56:56,006:INFO:Defining folds
+2026-09-16 21:56:56,006:INFO:Declaring metric variables
+2026-09-16 21:56:56,008:INFO:Importing untrained model
+2026-09-16 21:56:56,008:INFO:Declaring custom model
+2026-09-16 21:56:56,012:INFO:K Neighbors Classifier Imported successfully
+2026-09-16 21:56:56,015:INFO:Starting cross validation
+2026-09-16 21:56:56,016:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-09-16 21:56:56,198:INFO:Calculating mean and std
+2026-09-16 21:56:56,198:INFO:Creating metrics dataframe
+2026-09-16 21:56:56,198:INFO:Finalizing model
+2026-09-16 21:56:56,206:INFO:Uploading results into container
+2026-09-16 21:56:56,207:INFO:Uploading model into container now
+2026-09-16 21:56:56,207:INFO:_master_model_container: 22
+2026-09-16 21:56:56,207:INFO:_display_container: 7
+2026-09-16 21:56:56,207:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform')
+2026-09-16 21:56:56,207:INFO:create_model() successfully completed......................................
+2026-09-16 21:57:02,702:INFO:Initializing evaluate_model()
+2026-09-16 21:57:02,702:INFO:evaluate_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform'), fold=None, fit_kwargs=None, plot_kwargs=None, feature_name=None, groups=None)
+2026-09-16 21:57:02,708:INFO:Initializing plot_model()
+2026-09-16 21:57:02,708:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform'), plot=pipeline, scale=1, save=False, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), fit_kwargs={}, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=False, system=True, display=None, display_format=None)
+2026-09-16 21:57:02,708:INFO:Checking exceptions
+2026-09-16 21:57:02,709:INFO:Preloading libraries
+2026-09-16 21:57:02,709:INFO:Copying training dataset
+2026-09-16 21:57:02,709:INFO:Plot type: pipeline
+2026-09-16 21:57:02,747:INFO:Visual Rendered Successfully
+2026-09-16 21:57:02,831:INFO:plot_model() successfully completed......................................
+2026-09-16 21:57:09,214:INFO:Initializing tune_model()
+2026-09-16 21:57:09,214:INFO:tune_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform'), fold=None, round=4, n_iter=10, custom_grid=None, optimize=Accuracy, custom_scorer=None, search_library=scikit-learn, search_algorithm=None, early_stopping=False, early_stopping_max_iters=10, choose_better=True, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, return_train_score=False, kwargs={})
+2026-09-16 21:57:09,214:INFO:Checking exceptions
+2026-09-16 21:57:09,223:INFO:Copying training dataset
+2026-09-16 21:57:09,225:INFO:Checking base model
+2026-09-16 21:57:09,225:INFO:Base model : K Neighbors Classifier
+2026-09-16 21:57:09,227:INFO:Declaring metric variables
+2026-09-16 21:57:09,228:INFO:Defining Hyperparameters
+2026-09-16 21:57:09,334:INFO:Tuning with n_jobs=-1
+2026-09-16 21:57:09,334:INFO:Initializing RandomizedSearchCV
+2026-09-16 21:57:09,933:INFO:best_params: {'actual_estimator__weights': 'distance', 'actual_estimator__n_neighbors': 12, 'actual_estimator__metric': 'euclidean'}
+2026-09-16 21:57:09,933:INFO:Hyperparameter search completed
+2026-09-16 21:57:09,933:INFO:SubProcess create_model() called ==================================
+2026-09-16 21:57:09,933:INFO:Initializing create_model()
+2026-09-16 21:57:09,933:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform'), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x0000028738281850>, model_only=True, return_train_score=False, error_score=0.0, kwargs={'weights': 'distance', 'n_neighbors': 12, 'metric': 'euclidean'})
+2026-09-16 21:57:09,933:INFO:Checking exceptions
+2026-09-16 21:57:09,933:INFO:Importing libraries
+2026-09-16 21:57:09,933:INFO:Copying training dataset
+2026-09-16 21:57:09,935:INFO:Defining folds
+2026-09-16 21:57:09,935:INFO:Declaring metric variables
+2026-09-16 21:57:09,937:INFO:Importing untrained model
+2026-09-16 21:57:09,937:INFO:Declaring custom model
+2026-09-16 21:57:09,937:INFO:K Neighbors Classifier Imported successfully
+2026-09-16 21:57:09,937:INFO:Starting cross validation
+2026-09-16 21:57:09,937:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-09-16 21:57:10,100:INFO:Calculating mean and std
+2026-09-16 21:57:10,100:INFO:Creating metrics dataframe
+2026-09-16 21:57:10,103:INFO:Finalizing model
+2026-09-16 21:57:10,109:INFO:Uploading results into container
+2026-09-16 21:57:10,109:INFO:Uploading model into container now
+2026-09-16 21:57:10,109:INFO:_master_model_container: 23
+2026-09-16 21:57:10,109:INFO:_display_container: 8
+2026-09-16 21:57:10,110:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='euclidean',
+                     metric_params=None, n_jobs=-1, n_neighbors=12, p=2,
+                     weights='distance')
+2026-09-16 21:57:10,110:INFO:create_model() successfully completed......................................
+2026-09-16 21:57:10,181:INFO:SubProcess create_model() end ==================================
+2026-09-16 21:57:10,181:INFO:choose_better activated
+2026-09-16 21:57:10,181:INFO:SubProcess create_model() called ==================================
+2026-09-16 21:57:10,181:INFO:Initializing create_model()
+2026-09-16 21:57:10,181:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform'), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-09-16 21:57:10,181:INFO:Checking exceptions
+2026-09-16 21:57:10,181:INFO:Importing libraries
+2026-09-16 21:57:10,181:INFO:Copying training dataset
+2026-09-16 21:57:10,181:INFO:Defining folds
+2026-09-16 21:57:10,181:INFO:Declaring metric variables
+2026-09-16 21:57:10,181:INFO:Importing untrained model
+2026-09-16 21:57:10,181:INFO:Declaring custom model
+2026-09-16 21:57:10,197:INFO:K Neighbors Classifier Imported successfully
+2026-09-16 21:57:10,197:INFO:Starting cross validation
+2026-09-16 21:57:10,197:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-09-16 21:57:10,356:INFO:Calculating mean and std
+2026-09-16 21:57:10,356:INFO:Creating metrics dataframe
+2026-09-16 21:57:10,357:INFO:Finalizing model
+2026-09-16 21:57:10,360:INFO:Uploading results into container
+2026-09-16 21:57:10,361:INFO:Uploading model into container now
+2026-09-16 21:57:10,361:INFO:_master_model_container: 24
+2026-09-16 21:57:10,361:INFO:_display_container: 9
+2026-09-16 21:57:10,361:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform')
+2026-09-16 21:57:10,361:INFO:create_model() successfully completed......................................
+2026-09-16 21:57:10,441:INFO:SubProcess create_model() end ==================================
+2026-09-16 21:57:10,441:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform') result for Accuracy is 0.784
+2026-09-16 21:57:10,442:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='euclidean',
+                     metric_params=None, n_jobs=-1, n_neighbors=12, p=2,
+                     weights='distance') result for Accuracy is 0.8131
+2026-09-16 21:57:10,442:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='euclidean',
+                     metric_params=None, n_jobs=-1, n_neighbors=12, p=2,
+                     weights='distance') is best model
+2026-09-16 21:57:10,442:INFO:choose_better completed
+2026-09-16 21:57:10,446:INFO:_master_model_container: 24
+2026-09-16 21:57:10,446:INFO:_display_container: 8
+2026-09-16 21:57:10,447:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='euclidean',
+                     metric_params=None, n_jobs=-1, n_neighbors=12, p=2,
+                     weights='distance')
+2026-09-16 21:57:10,447:INFO:tune_model() successfully completed......................................
+2026-09-16 21:57:20,022:INFO:Initializing predict_model()
+2026-09-16 21:57:20,022:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='euclidean',
+                     metric_params=None, n_jobs=-1, n_neighbors=12, p=2,
+                     weights='distance'), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000028714D40D60>)
+2026-09-16 21:57:20,022:INFO:Checking exceptions
+2026-09-16 21:57:20,022:INFO:Preloading libraries
+2026-09-16 21:57:50,667:INFO:Initializing predict_model()
+2026-09-16 21:57:50,667:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='euclidean',
+                     metric_params=None, n_jobs=-1, n_neighbors=12, p=2,
+                     weights='distance'), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002878A3942C0>)
+2026-09-16 21:57:50,667:INFO:Checking exceptions
+2026-09-16 21:57:50,667:INFO:Preloading libraries
+2026-09-16 21:57:50,675:INFO:Set up data.
+2026-09-16 21:57:50,676:INFO:Set up index.
+2026-09-16 21:58:12,792:INFO:Initializing predict_model()
+2026-09-16 21:58:12,792:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='euclidean',
+                     metric_params=None, n_jobs=-1, n_neighbors=12, p=2,
+                     weights='distance'), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002878A6FEB60>)
+2026-09-16 21:58:12,792:INFO:Checking exceptions
+2026-09-16 21:58:12,792:INFO:Preloading libraries
+2026-09-16 21:58:12,794:INFO:Set up data.
+2026-09-16 21:58:12,795:INFO:Set up index.
+2026-09-16 21:58:47,274:INFO:Initializing save_model()
+2026-09-16 21:58:47,274:INFO:save_model(model=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='euclidean',
+                     metric_params=None, n_jobs=-1, n_neighbors=12, p=2,
+                     weights='distance'), model_name=models/Risco_Internacao_model_v1, prep_pipe_=Pipeline(memory=FastMemory(location=C:\Users\LABORA~1\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['Idade', 'Pressao_Arterial',
+                                             'Colesterol_Total',
+                                             'Frequencia_Cardiaca_Max'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='mean'))),
+                ('categorical_imputer',
+                 TransformerWrapper(exclude=None, include=[],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='most_frequent')))],
+         verbose=False), verbose=True, use_case=MLUsecase.CLASSIFICATION, kwargs={})
+2026-09-16 21:58:47,274:INFO:Adding model into prep_pipe
+2026-09-16 21:58:47,275:INFO:models/Risco_Internacao_model_v1.pkl saved in current working directory
+2026-09-16 21:58:47,279:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['Idade', 'Pressao_Arterial',
+                                             'Colesterol_Total',
+                                             'Frequencia_Cardiaca_Max'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='mean'))),
+                ('categorical_imputer',
+                 TransformerWrapper(exclude=None, include=[],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='most_frequent'))),
+                ('trained_model',
+                 KNeighborsClassifier(algorithm='auto', leaf_size=30,
+                                      metric='euclidean', metric_params=None,
+                                      n_jobs=-1, n_neighbors=12, p=2,
+                                      weights='distance'))],
+         verbose=False)
+2026-09-16 21:58:47,279:INFO:save_model() successfully completed......................................
+2026-09-16 21:59:27,917:INFO:Initializing save_model()
+2026-09-16 21:59:27,917:INFO:save_model(model=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='euclidean',
+                     metric_params=None, n_jobs=-1, n_neighbors=12, p=2,
+                     weights='distance'), model_name=models/Risco_Internacao_v1, prep_pipe_=Pipeline(memory=FastMemory(location=C:\Users\LABORA~1\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['Idade', 'Pressao_Arterial',
+                                             'Colesterol_Total',
+                                             'Frequencia_Cardiaca_Max'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='mean'))),
+                ('categorical_imputer',
+                 TransformerWrapper(exclude=None, include=[],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='most_frequent')))],
+         verbose=False), verbose=True, use_case=MLUsecase.CLASSIFICATION, kwargs={})
+2026-09-16 21:59:27,917:INFO:Adding model into prep_pipe
+2026-09-16 21:59:27,937:INFO:models/Risco_Internacao_v1.pkl saved in current working directory
+2026-09-16 21:59:27,937:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['Idade', 'Pressao_Arterial',
+                                             'Colesterol_Total',
+                                             'Frequencia_Cardiaca_Max'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='mean'))),
+                ('categorical_imputer',
+                 TransformerWrapper(exclude=None, include=[],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='most_frequent'))),
+                ('trained_model',
+                 KNeighborsClassifier(algorithm='auto', leaf_size=30,
+                                      metric='euclidean', metric_params=None,
+                                      n_jobs=-1, n_neighbors=12, p=2,
+                                      weights='distance'))],
+         verbose=False)
+2026-09-16 21:59:27,937:INFO:save_model() successfully completed......................................
+2026-09-16 21:59:35,683:INFO:Initializing load_model()
+2026-09-16 21:59:35,683:INFO:load_model(model_name=models/churn_model_v1, platform=None, authentication=None, verbose=True)
+2026-09-16 21:59:55,475:INFO:Initializing load_model()
+2026-09-16 21:59:55,475:INFO:load_model(model_name=models/Risco_Internacao_v1, platform=None, authentication=None, verbose=True)
+2026-09-16 21:59:59,193:INFO:Initializing predict_model()
+2026-09-16 21:59:59,194:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002878A3B8E90>, estimator=Pipeline(memory=FastMemory(location=C:\Users\LABORA~1\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['Idade', 'Pressao_Arterial',
+                                             'Colesterol_Total',
+                                             'Frequencia_Cardiaca_Max'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='...
+                 TransformerWrapper(exclude=None, include=[],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='most_frequent'))),
+                ('trained_model',
+                 KNeighborsClassifier(algorithm='auto', leaf_size=30,
+                                      metric='euclidean', metric_params=None,
+                                      n_jobs=-1, n_neighbors=12, p=2,
+                                      weights='distance'))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002878A6F5800>)
+2026-09-16 21:59:59,194:INFO:Checking exceptions
+2026-09-16 21:59:59,194:INFO:Preloading libraries
+2026-09-16 21:59:59,194:INFO:Set up data.
+2026-09-16 21:59:59,196:INFO:Set up index.
